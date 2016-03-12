@@ -1,0 +1,27 @@
+.navbar-br {
+	background-color: #4589B0;
+	color: white;
+}
+
+.nav>li>a {
+	color: white;
+	font-size: 1.4em;
+	font-weight: bold;
+		padding: 0px 10px 30px 30px;
+}
+
+@media (min-width: 768px) {
+	.nav>li>a {
+		padding: 30px 40px 40px 0px;
+	}	
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: rgba(0, 0, 0, 0)
+}
+
+@media screen and (min-width: 480px) {
+.navbar-toggle {
+	color: white;
+	font-size: 1.7em;
+}
