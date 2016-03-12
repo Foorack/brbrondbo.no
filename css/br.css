@@ -1,3 +1,7 @@
+body {
+	color: #444444;
+}
+
 .navbar-br {
 	background-color: #4589B0;
 	color: white;
@@ -21,7 +25,65 @@
 }
 
 @media screen and (max-width: 480px) {
-.navbar-toggle {
+	.navbar-toggle {
+		color: white;
+		font-size: 2.2em;
+	}
+}
+
+.nvbar1 {
+	width: 90%;
+    background-color: #73B1D6;
+    height: 40px;
+    margin-top: -40px;
+    z-index: 100000000;
+    position: relative;
+    float: right;
+    opacity: calc(100 / 140);
+}
+
+.nvbar2 {
+	width: 100%;
+    background-color: #1D628B;
+    height: 50px;
+    margin-top: -20px;
+    z-index: 0;
+    position: relative;
+    float: right;
+}
+
+.brfooter1 {
+	background-color: #444444;
+	height: 500px;
 	color: white;
-	font-size: 2.2em;
+	margin: 0px;
+	font-size: 1.7em;
+}
+
+.brfooter1 > div > ul > li > a {
+	color: white;
+}
+
+.brfooter2 {
+	background-color: #73B1D6;
+	color: white;
+	font-weight: bold;
+	font-size: 1.5em;
+	width: 90%;
+	float: right;
+	margin-top: -150px;
+	padding: 15px 0px 15px 30px;
+}
+
+/* OM OSS */
+.omossimg {
+	height: 300px;
+	background-color: gray;
+	background-image: url("../img/Moxy_d30.jpg");
+	background-position: center;
+	background-size: 100%;
+	margin-bottom: 3em;
+}
+.omosstext {
+	font-size: 2.1em;
 }
