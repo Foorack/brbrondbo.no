@@ -1,14 +1,15 @@
 body {
 	color: #444444;
+	background-color: #FFFFF7;
 }
 
 .navbar-br {
 	background-color: #4589B0;
-	color: white;
+	color: #FFFFF7;
 }
 
 .nav>li>a {
-	color: white;
+	color: #FFFFF7;
 	font-size: 1.4em;
 	font-weight: bold;
 		padding: 0px 10px 30px 30px;
@@ -26,7 +27,7 @@ body {
 
 @media screen and (max-width: 480px) {
 	.navbar-toggle {
-		color: white;
+		color: #FFFFF7;
 		font-size: 2.2em;
 	}
 }
@@ -55,24 +56,31 @@ body {
 .brfooter1 {
 	background-color: #444444;
 	height: 500px;
-	color: white;
+	color: #FFFFF7;
 	margin: 0px;
 	font-size: 1.7em;
 }
 
 .brfooter1 > div > ul > li > a {
-	color: white;
+	color: #FFFFF7;
 }
 
 .brfooter2 {
 	background-color: #73B1D6;
-	color: white;
+	color: #FFFFF7;
 	font-weight: bold;
 	font-size: 1.5em;
 	width: 90%;
 	float: right;
 	margin-top: -150px;
 	padding: 15px 0px 15px 30px;
+}
+
+.brfooterlogo {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background-color: #FFFFF7;
+	float: right;
 }
 
 /* OM OSS */
@@ -86,4 +94,10 @@ body {
 }
 .omosstext {
 	font-size: 2.1em;
+}
+
+
+/* PROSJEKTER */
+.prosjektrow {
+	font-size: 19px;
 }
